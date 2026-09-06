@@ -75,6 +75,12 @@ public class Video {
     List<Integer> protocols;
 
     /**
+     * Video protocol retained for OpenRTB 2.5 round trips.
+     * Deprecated as of OpenRTB 2.5 and removed in 2.6 in favor of protocols.
+     */
+    Integer protocol;
+
+    /**
      * Width of the video player in device independent pixels (DIPS).
      */
     Integer w;
@@ -90,7 +96,7 @@ public class Video {
      * within a bid request share the same podid, this indicates that
      * those impression opportunities belong to the same video ad pod.
      */
-    Integer podid;
+    String podid;
 
     /**
      * The sequence (position) of the video ad pod within a

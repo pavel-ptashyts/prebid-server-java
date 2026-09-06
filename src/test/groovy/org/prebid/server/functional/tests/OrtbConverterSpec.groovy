@@ -556,7 +556,7 @@ class OrtbConverterSpec extends BaseSpec {
                 rqddurs = [PBSUtils.randomNumber]
                 maxseq = PBSUtils.randomNumber
                 poddur = PBSUtils.randomNumber
-                podid = PBSUtils.randomNumber
+                podid = PBSUtils.randomString
                 podseq = PBSUtils.randomNumber
                 mincpmpersec = PBSUtils.randomDecimal
                 slotinpod = PBSUtils.randomNumber
@@ -580,7 +580,7 @@ class OrtbConverterSpec extends BaseSpec {
                 rqddurs = [PBSUtils.randomNumber]
                 maxseq = PBSUtils.randomNumber
                 poddur = PBSUtils.randomNumber
-                podid = PBSUtils.randomNumber
+                podid = PBSUtils.randomString
                 podseq = PBSUtils.randomNumber
                 mincpmpersec = PBSUtils.randomDecimal
                 slotinpod = PBSUtils.randomNumber
@@ -604,7 +604,7 @@ class OrtbConverterSpec extends BaseSpec {
                 rqddurs = [PBSUtils.randomNumber]
                 maxseq = PBSUtils.randomNumber
                 poddur = PBSUtils.randomNumber
-                podid = PBSUtils.randomNumber
+                podid = PBSUtils.randomString
                 podseq = PBSUtils.randomNumber
                 mincpmpersec = PBSUtils.randomDecimal
                 slotinpod = PBSUtils.randomNumber
@@ -626,7 +626,7 @@ class OrtbConverterSpec extends BaseSpec {
                 rqddurs = [PBSUtils.randomNumber]
                 maxseq = PBSUtils.randomNumber
                 poddur = PBSUtils.randomNumber
-                podid = PBSUtils.randomNumber
+                podid = PBSUtils.randomString
                 podseq = PBSUtils.randomNumber
                 mincpmpersec = BigDecimal.valueOf(1)
                 slotinpod = PBSUtils.randomNumber

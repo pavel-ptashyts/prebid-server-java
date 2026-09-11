@@ -15,6 +15,8 @@ class Content {
     String season
     String artist
     String genre
+    Integer gtax
+    List<String> genres
     String album
     String isrc
     Producer producer
@@ -29,6 +31,8 @@ class Content {
     String keywords
     List<String> kwarray
     Integer livestream
+    Integer realtime
+    Integer firstbroadcast
     Integer sourcerelationship
     Integer len
     String language

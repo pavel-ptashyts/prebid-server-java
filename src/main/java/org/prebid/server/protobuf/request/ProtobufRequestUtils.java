@@ -263,6 +263,10 @@ public class ProtobufRequestUtils {
             setNotNull(mapList(banner.getFormat(), formatMapper::map), resultBuilder::addAllFormat);
             setNotNull(banner.getW(), resultBuilder::setW);
             setNotNull(banner.getH(), resultBuilder::setH);
+            setNotNull(banner.getWmax(), resultBuilder::setWmax);
+            setNotNull(banner.getHmax(), resultBuilder::setHmax);
+            setNotNull(banner.getWmin(), resultBuilder::setWmin);
+            setNotNull(banner.getHmin(), resultBuilder::setHmin);
             setNotNull(banner.getBtype(), resultBuilder::addAllBtype);
             setNotNull(banner.getBattr(), resultBuilder::addAllBattr);
             setNotNull(banner.getPos(), resultBuilder::setPos);
@@ -337,6 +341,7 @@ public class ProtobufRequestUtils {
             setNotNull(content.getUrl(), resultBuilder::setUrl);
             setNotNull(content.getCat(), resultBuilder::addAllCat);
             setNotNull(content.getProdq(), resultBuilder::setProdq);
+            setNotNull(content.getVideoquality(), resultBuilder::setVideoquality);
             setNotNull(content.getContext(), resultBuilder::setContext);
             setNotNull(content.getContentrating(), resultBuilder::setContentrating);
             setNotNull(content.getUserrating(), resultBuilder::setUserrating);
@@ -768,6 +773,7 @@ public class ProtobufRequestUtils {
             setNotNull(video.getMinduration(), resultBuilder::setMinduration);
             setNotNull(video.getMaxduration(), resultBuilder::setMaxduration);
             setNotNull(video.getStartdelay(), resultBuilder::setStartdelay);
+            setNotNull(video.getProtocol(), resultBuilder::setProtocol);
             setNotNull(video.getProtocols(), resultBuilder::addAllProtocols);
             setNotNull(video.getW(), resultBuilder::setW);
             setNotNull(video.getH(), resultBuilder::setH);
